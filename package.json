@@ -1,0 +1,14 @@
+{
+  "name": "comicapp",
+  "version": "1.0.0",
+  "description": "App for comics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tushar Sekhri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
