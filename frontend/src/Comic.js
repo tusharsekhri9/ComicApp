@@ -148,10 +148,10 @@ export class Comic extends Component {
             { famousComics() }
             <div className="buttonInlineDiv">
             <div className="buttonDiv buttonInline">
-            <button   type="button" onClick={event =>  window.location.href='/' + (this.state.comicID - 1)}>Prev</button>
+            <button disabled={this.state.comicID == 1}  type="button" onClick={event =>  window.location.href='/' + (this.state.comicID - 1)}>Prev</button>
             </div>
             <div  className="buttonDiv buttonInline">
-            <button   type="button" onClick={event =>  window.location.href='/' + (this.state.comicID + 1)}>Next</button>    
+            <button disabled={this.state.comicID == this.maxComicID}  type="button" onClick={event =>  window.location.href='/' + (this.state.comicID + 1)}>Next</button>    
             </div>
             </div>
             
