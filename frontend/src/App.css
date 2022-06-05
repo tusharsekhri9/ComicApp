@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 80px;
 }
 
 .App-logo {
@@ -27,6 +30,50 @@
 .App-link {
   color: #61dafb;
 }
+
+button {
+  font-size: 16px;
+}
+
+.buttonDiv {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.buttonInlineDiv {
+  width: 100%;
+}
+
+.buttonInline {
+  display:inline-block;
+}
+
+.transcript {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+img {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+table, th, td {
+  border:1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+table{
+  margin-bottom: 40px;
+}
+
 
 @keyframes App-logo-spin {
   from {
