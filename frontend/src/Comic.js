@@ -83,7 +83,7 @@ export class Comic extends Component {
             window.location.href='/' + this.maxComicID
         } else {
             await axios
-                .post('http://localhost:5000/comic', {comicID: this.state.comicID})
+                .post('/comic', {comicID: this.state.comicID})
                 .then(res => {
                     console.log(res.data.famousComics)  
                     this.setState({famousComics: res.data.famousComics})
